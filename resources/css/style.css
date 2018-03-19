@@ -104,4 +104,32 @@ header .flex {
 }
 
 .icon img.paper-icon {
-    width: 3.5rem;
+  width: 3.5rem;
+}
+
+/*Info*/
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.details {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.title {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+}
+
+.title p {
+  padding: 1rem 0;
+}
+
+/*Footer*/
