@@ -80,6 +80,28 @@ header .flex {
   margin: 0.67em 0;
 }
 
+@media only screen and (max-width: 1024px) {
+
+  nav .container {
+    max-width: 100%;
+  }
+
+  header {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .main-banner {
+    margin: 5rem 2rem 0 0;
+  }
+
+  .main-banner h1 {
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
+}
+
+
 /*Icons*/
 
 .supporting {
